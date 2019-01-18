@@ -3,6 +3,8 @@ def my_each(array) # put argument(s) here
   size= array.size
   ii=0 
   while (ii<size)
+    yield
     ii+=1
   end
+  return array
 end
